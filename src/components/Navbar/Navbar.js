@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
 import styled from 'styled-components';
 
 import MenuIcon from '@mui/icons-material/Menu';
@@ -12,11 +13,11 @@ function Navbar() {
     <>
       <Container>
         <Menu>
-          <Link to="/studio">The Studio</Link>
-          <Link to="/recovery-lounge">The Recovery Lounge</Link>
-          <Link to="/fitness-facility">Hub925 Fitness Facility</Link>
+          <Link to="/the-studio">The Studio</Link>
+          <Link to="/the-recovery-lounge">The Recovery Lounge</Link>
+          <Link to="/">Hub925 Fitness Facility</Link>
           <Link to="/the-arena">The Arena </Link>
-          <Link to="/rejuvenation-spa">The Rejuvenation Spa</Link>
+          <Link to="/the-rejuvenation-spa">The Rejuvenation Spa</Link>
         </Menu>
         <RightMenu>
           <CustomMenu onClick={() => setMenuStatus(true)} />
@@ -27,19 +28,19 @@ function Navbar() {
             <CloseMenu onClick={() => setMenuStatus(false)} />
           </CloseMenuWrapper>
           <li>
-            <Link to="/studio">The Studio</Link>
+            <Link to="/the-studio">The Studio</Link>
           </li>
           <li>
-            <Link to="/recovery-lounge">The Recovery Lounge</Link>
+            <Link to="/the-recovery-lounge">The Recovery Lounge</Link>
           </li>
           <li>
-            <Link to="/fitness-facility">Hub925 Fitness Facility</Link>
+            <Link to="/">Hub925 Fitness Facility</Link>
           </li>
           <li>
-            <Link to="/the-arena">The Arena </Link>
+            <Link to="/the-the-arena">The Arena </Link>
           </li>
           <li>
-            <Link to="/rejuvenation-spa">The Rejuvenation Spa</Link>
+            <Link to="/the-rejuvenation-spa">The Rejuvenation Spa</Link>
           </li>
         </MobileMenu>
       </Container>
