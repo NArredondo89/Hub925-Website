@@ -7,4 +7,7 @@ function Hero() {
 
 export default Hero;
 
-const Container = styled.div``;
+const Container = styled.div`
+  height: 100vh;
+  z-index: 10;
+`;
