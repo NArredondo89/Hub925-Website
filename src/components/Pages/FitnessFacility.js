@@ -1,7 +1,12 @@
 import React from 'react';
+import Hero from '../Hero/Hero';
 
 function FitnessFacility() {
-  return <div></div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
 
 export default FitnessFacility;
