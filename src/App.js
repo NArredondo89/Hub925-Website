@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import NavBar from './components/Navbar/Navbar.js';
+import NavBar from './components/Navbar/Index.js';
 import TheStudio from './components/Pages/TheStudio';
 import RecoveryLounge from './components/Pages/RecoveryLounge';
-import FitnessFacility from './components/Pages/FitnessFacility';
+import FitnessFacility from './components/Pages/FitnessFacility/Index.js';
 import TheArena from './components/Pages/TheArena';
 import RejuvenationSpa from './components/Pages/RejuvenationSpa';
 
