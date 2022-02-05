@@ -5,6 +5,8 @@ import {
   BBIconWrapper,
   BBContentWrapper,
   BBIcon,
+  BBTitleWrapper,
+  BBTitle,
 } from './FitnessFacility.js';
 
 function FitnessFacility() {
@@ -12,7 +14,11 @@ function FitnessFacility() {
     <FFContainer>
       <FFImage />
       <BBContentContainer>
-        <BBContentWrapper></BBContentWrapper>
+        <BBContentWrapper>
+          <BBTitleWrapper>
+            <BBTitle>Keep Calm And Ball On....</BBTitle>
+          </BBTitleWrapper>
+        </BBContentWrapper>
         <BBIconWrapper>
           <BBIcon />
         </BBIconWrapper>

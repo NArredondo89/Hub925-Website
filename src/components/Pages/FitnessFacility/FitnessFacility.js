@@ -29,6 +29,10 @@ export const BBContentWrapper = styled.div`
 `;
 
 export const BBIconWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 1px solid white;
   height: 70vh;
   width: 40vw;
@@ -36,9 +40,24 @@ export const BBIconWrapper = styled.div`
 
 export const BBIcon = styled.div`
   background-image: url(${'https://i.imgur.com/TehCZIk.jpg'});
-  height: 60vh;
-  width: auto;
+  height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
+`;
+
+export const BBTitleWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  margin-top: 10vh;
+  height: 20%;
+  color: white;
+`;
+
+export const BBTitle = styled.div`
+  color: white;
+  font-size: 2.5em;
 `;
 
 // export const SloganContainer = styled.div`
