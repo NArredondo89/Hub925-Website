@@ -7,6 +7,7 @@ export const FFContainer = styled.div`
 
 export const FFImage = styled.div`
   background-image: url(${'https://i.imgur.com/4eFUWrp.jpg'});
+  opacity: 0.2;
   min-height: 100%;
   position: relative;
   background-attachment: fixed;
@@ -15,9 +16,25 @@ export const FFImage = styled.div`
   background-size: cover;
 `;
 
+export const Caption = styled.div`
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+`;
+
+export const Span = styled.div`
+  color: white;
+  font-weight: 700;
+  font-size: 5vw;
+`;
+
 export const BBContentContainer = styled.div`
   margin-top: 20vh;
-  height: 200vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
 `;
@@ -56,51 +73,42 @@ export const BBTitleWrapper = styled.div`
 `;
 
 export const BBTitle = styled.div`
+  font-size: 2.5vw;
   color: white;
-  font-size: 2.5em;
 `;
 
-// export const SloganContainer = styled.div`
-//   height: 80vh;
-//   align-items: center;
-//   justify-content: center;
-//   display: flex;
-//   flex-direction: column;
+export const BBDescriptionWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  width: 30vw;
+  flex-direction: column;
+  border: 1px solid white;
+  text-align: center;
+  margin-left: 5vw;
+`;
 
-//   width: 50%;
-//   color: white;
-// `;
+export const BBDescriptionOne = styled.div`
+  margin-bottom: 20px;
+  font-size: 1.2vw;
+  color: white;
+`;
+export const BBDescriptionTwo = styled.div`
+  font-size: 1.2vw;
+  color: white;
+`;
 
-// export const BasketBallTitle = styled.div`
-//   margin-bottom: 3vh;
-//   font-size: 3rem;
-//   align-items: center;
-// `;
+export const BBCourtImage = styled.div`
+  background-image: url(${'https://i.imgur.com/0gcFWLj.png'});
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
 
-// export const BasketBallContent = styled.div`
-//   align-self: center;
-//   font-size: 1.5em;
-// `;
-
-// export const BBFunnyLine = styled.div`
-//   margin-top: 10px;
-//   align-self: center;
-//   font-size: 1.5rem;
-//   margin-bottom: 20vh;
-// `;
-
-// export const ImageWrapper = styled.div`
-//   height: 100vh;
-//   width: 100%;
-// `;
-
-// export const BBImage = styled.div`
-//   background-image: url(${'https://i.imgur.com/0gcFWLj.png'});
-//   border: 1px solid white;
-//   min-height: 100%;
-//   position: relative;
-//   background-attachment: fixed;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// `;
+export const GXContainer = styled.div`
+  display: grid;
+  height: 100vh;
+`;
