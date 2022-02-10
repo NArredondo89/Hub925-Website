@@ -7,6 +7,7 @@ import {
 } from './FitnessFacility.js';
 
 import InfoSection from '../../InfoSection/Index.js';
+
 import { homeObjOne, homeObjTwo, homeObjFour } from '../../InfoSection/Data.';
 
 function FitnessFacility() {
