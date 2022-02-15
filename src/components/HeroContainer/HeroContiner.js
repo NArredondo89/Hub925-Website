@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const HeroImage = styled.div`
-  background-image: url(${'https://i.imgur.com/4eFUWrp.jpg'});
+  /* background-image: url(${'https://i.imgur.com/4eFUWrp.jpg'}); */
   opacity: 0.2;
   min-height: 100%;
   position: relative;
