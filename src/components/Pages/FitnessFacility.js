@@ -44,7 +44,7 @@ const Caption = styled.div`
   text-transform: uppercase;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 45%;
   width: 100%;
   text-align: center;
   color: #000;
