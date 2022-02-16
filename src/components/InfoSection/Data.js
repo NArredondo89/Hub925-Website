@@ -4,9 +4,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'The Cafe At Hub925',
-  headline: 'Unlimited Transactions with zero fees',
+  headline: `You can't buy happiness, but you can buy smoothies`,
   description:
-    'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
+    'With our grab and go cafe, you can have a smoothie made to order or grab one of our delishious snack boxes.',
   buttonLabel: 'Get Started',
   imgStart: false,
   img: require('../../images/cafe.jpg'),
@@ -22,9 +22,9 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
+  headline: 'Land Cardio Not Your Thing? Same...',
   description:
-    'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
+    'We have you covered no matter what type of cardio you like. Hold your breath and save your joints in our 79 degree heated pool.',
   buttonLabel: 'Learn More',
   imgStart: true,
   img: require('../../images/Swimming.jpg'),
