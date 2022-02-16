@@ -1,4 +1,6 @@
+import Img from '../../images/GymHero.jpg';
+
 export const HeroObjOne = {
-  img: require('../../images/GymHero.jpg'),
+  img: Img,
   title: 'HUB925 Redefined',
 };

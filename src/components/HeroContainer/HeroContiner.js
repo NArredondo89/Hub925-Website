@@ -2,11 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 100vh;
-  width: 100vw;
 `;
 
-export const HeroImage = styled.div`
-  /* background-image: url(${'https://i.imgur.com/4eFUWrp.jpg'}); */
+export const HeroImage = styled.img`
   opacity: 0.2;
   min-height: 100%;
   position: relative;
