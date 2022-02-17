@@ -1,14 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Amenities from '../AmenitiesSection/Index.js';
+
 function TheStudio() {
   return (
-    <Container>
-      <HeroImage />
-      <Caption>
-        <Span>The Studio</Span>
-      </Caption>
-    </Container>
+    <>
+      <Container>
+        <HeroImage />
+        <Caption>
+          <Span>The Studio</Span>
+        </Caption>
+      </Container>
+      <Amenities />
+    </>
   );
 }
 

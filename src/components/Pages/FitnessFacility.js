@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ImageContainer from '../ImageContainer/Index.js';
 import InfoSection from '../InfoSection/Index.js';
 
 import { homeObjOne, homeObjTwo, homeObjFour } from '../InfoSection/Data.js';
@@ -15,7 +14,9 @@ const FitnessFacility = () => {
           <Span>HUB925 Redefined</Span>
         </Caption>
         <InfoSection {...homeObjFour} />
-        <ImageContainer />
+        <ImgContainer>
+          <Image />
+        </ImgContainer>
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
       </Container>
@@ -54,4 +55,18 @@ const Span = styled.div`
   color: white;
   font-weight: 700;
   font-size: 5vw;
+`;
+
+export const ImgContainer = styled.div`
+  height: 100vh;
+`;
+
+export const Image = styled.div`
+  background-image: url(${'https://i.imgur.com/0gcFWLj.png'});
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;

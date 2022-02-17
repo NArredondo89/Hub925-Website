@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { Container, Image } from './ImageContainer.js';
+import { Container, Img } from './ImageContainer.js';
 
-function ImageContainer() {
+const ImageContainer = ({ img }) => {
   return (
     <>
       <Container>
-        <Image />
+        <Img src={img} />
       </Container>
     </>
   );
-}
+};
 
 export default ImageContainer;
