@@ -25,6 +25,7 @@ export const ContentWrapper = styled.div`
 `;
 export const ContentIcon = styled.div`
   height: 30%;
+  color: white;
 `;
 
 export const ContentTitle = styled.h1`
