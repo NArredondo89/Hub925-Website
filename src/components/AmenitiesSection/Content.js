@@ -2,10 +2,10 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-const Content = ({ title, description }) => {
+const Content = ({ img, title, description }) => {
   return (
     <ContentWrapper>
-      <ContentIcon>Icon</ContentIcon>
+      <Img src={img} />
       <ContentTitle>{title}</ContentTitle>
       <ContentDescription>{description}</ContentDescription>
     </ContentWrapper>
@@ -19,25 +19,28 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  height: 50vh;
+  margin-top: 20vh;
+  height: 80vh;
   width: 20vw;
-  border: 1px solid white;
 `;
-export const ContentIcon = styled.div`
-  height: 30%;
-  color: white;
+export const Img = styled.img`
+  width: 20vw;
+  height: 50vh;
+  object-fit: cover;
+  overflow: hidden;
 `;
 
 export const ContentTitle = styled.h1`
   height: 20%;
   width: 20vw;
+  font-size: 2vw;
   color: white;
 `;
 export const ContentDescription = styled.p`
-  height: 60%vh;
+  height: 60%;
   width: 20vw;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.2vw;
   line-height: 1.5;
   color: white;
 `;

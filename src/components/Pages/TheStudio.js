@@ -5,8 +5,10 @@ import {
   AmmenitiesObjTwo,
   AmmenitiesObjThree,
 } from '../AmenitiesSection/Data.js';
+
 import InfoSection from '../InfoSection/Index.js';
-import Content from '../AmenitiesSection/Content.js';
+
+import NFContent from '../AmenitiesSection/NFContent.js';
 
 import { homeObjFive, homeObjSix } from '../InfoSection/Data.js';
 
@@ -21,9 +23,9 @@ function TheStudio() {
       </Container>
       <StudioAmContainer>
         <ContentContainer>
-          <Content {...AmmenitiesObjOne} />
-          <Content {...AmmenitiesObjTwo} />
-          <Content {...AmmenitiesObjThree} />
+          <NFContent {...AmmenitiesObjOne} />
+          <NFContent {...AmmenitiesObjTwo} />
+          <NFContent {...AmmenitiesObjThree} />
         </ContentContainer>
       </StudioAmContainer>
       <ImgContainer>

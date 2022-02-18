@@ -16,7 +16,7 @@ import InfoSection from '../InfoSection/Index.js';
 
 import Content from '../AmenitiesSection/Content.js';
 
-function TheArena() {
+function TheArena(props) {
   return (
     <>
       <Container>
@@ -52,11 +52,11 @@ function TheArena() {
 
 export default TheArena;
 
-export const Container = styled.div`
+const Container = styled.div`
   height: 100vh;
 `;
 
-export const HeroImage = styled.div`
+const HeroImage = styled.div`
   background-image: url(${'https://i.imgur.com/cTfE0cW.jpg'});
   opacity: 0.8;
   min-height: 100%;
@@ -67,7 +67,7 @@ export const HeroImage = styled.div`
   background-size: cover;
 `;
 
-export const Caption = styled.div`
+const Caption = styled.div`
   text-transform: uppercase;
   position: absolute;
   left: 0;
@@ -77,26 +77,26 @@ export const Caption = styled.div`
   color: #000;
 `;
 
-export const Span = styled.div`
+const Span = styled.div`
   color: white;
   font-weight: 700;
   font-size: 5vw;
 `;
 
-export const AmmContainer = styled.div`
+const AmmContainer = styled.div`
   height: 120vh;
   width: 100vw;
   display: grid;
   align-items: center;
 `;
-export const ContentContainer = styled.div`
+const ContentContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 0 150px;
 `;
 
-export const TitleContainer = styled.div`
+const TitleContainer = styled.div`
   background-color: #04131e;
   display: grid;
   align-items: center;
@@ -104,17 +104,17 @@ export const TitleContainer = styled.div`
   height: 50vh;
 `;
 
-export const Title = styled.div`
+const Title = styled.div`
   color: white;
   font-weight: 600;
   font-size: 5em;
 `;
 
-export const ImgContainer = styled.div`
+const ImgContainer = styled.div`
   height: 100vh;
 `;
 
-export const Image = styled.div`
+const Image = styled.div`
   background-image: url(${'https://i.imgur.com/wiMDjpZh.jpg'});
   min-height: 100%;
   position: relative;
