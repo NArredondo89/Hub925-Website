@@ -1,6 +1,6 @@
 export const homeObjOne = {
   id: 'about',
-  lightBg: false,
+
   lightText: true,
   lightTextDesc: true,
   topLine: 'The Cafe At Hub925',

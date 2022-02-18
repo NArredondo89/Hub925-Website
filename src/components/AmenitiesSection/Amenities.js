@@ -31,7 +31,7 @@ export const ContentTitle = styled.h1`
   color: white;
 `;
 export const ContentDescription = styled.p`
-  height: 60%vh;
+  height: 60%;
   width: 20vw;
   font-weight: 300;
   font-size: 20px;
