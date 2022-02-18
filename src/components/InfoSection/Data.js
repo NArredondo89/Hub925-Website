@@ -87,3 +87,37 @@ export const homeObjSix = {
   primary: true,
   darkText: false,
 };
+export const RecoveryInfoOne = {
+  id: 'Barre',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Vyper',
+  headline: 'Rollout - Ludacris',
+  description:
+    'All systems activated. Prime your body with a powerful vibrating massage. The Vyper 3 accelerates your warm up speeds recovery time and keeps you moving better.',
+  buttonLabel: 'Get Started',
+  imgStart: true,
+  img: require('../../images/VyperRoller.jpg'),
+  alt: 'Car',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const RecoveryInfoTwo = {
+  id: 'Barre',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: `Yes, It's this good `,
+  headline: 'NBA Worthy....What are you waiting for?',
+  description:
+    'The Hypervolt 2 Pro is that thing you’ve been seeing on every NBA sideline all season long. Train and recover like the pros do before the NBA All-Star game.',
+  buttonLabel: 'Get Started',
+  imgStart: true,
+  img: require('../../images/ja-pro-hypervolt.jpg'),
+  alt: 'Car',
+  dark: true,
+  primary: true,
+  darkText: false,
+};

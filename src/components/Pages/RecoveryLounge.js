@@ -1,16 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import {
-  AmmenitiesObjOne,
-  AmmenitiesObjTwo,
-  AmmenitiesObjThree,
+  RecoveryOne,
+  RecoveryTwo,
+  RecoveryThree,
+  RecoveryFour,
+  RecoveryFive,
+  RecoverySix,
 } from '../AmenitiesSection/Data.js';
 
 import Content from '../AmenitiesSection/Content.js';
 
 import InfoSection from '../InfoSection/Index.js';
 
-import { homeObjFive, homeObjSix } from '../InfoSection/Data.js';
+import { RecoveryInfoOne, RecoveryInfoTwo } from '../InfoSection/Data.js';
 
 function RecoveryLounge() {
   return (
@@ -24,21 +27,21 @@ function RecoveryLounge() {
       </Container>
       <AmmContainer>
         <ContentContainer>
-          <Content {...AmmenitiesObjOne} />
-          <Content {...AmmenitiesObjTwo} />
-          <Content {...AmmenitiesObjThree} />
+          <Content {...RecoveryOne} />
+          <Content {...RecoveryTwo} />
+          <Content {...RecoveryThree} />
         </ContentContainer>
         <ImgContainer>
           <Image />
         </ImgContainer>
         <ContentContainer>
-          <Content {...AmmenitiesObjOne} />
-          <Content {...AmmenitiesObjTwo} />
-          <Content {...AmmenitiesObjThree} />
+          <Content {...RecoveryFour} />
+          <Content {...RecoveryFive} />
+          <Content {...RecoverySix} />
         </ContentContainer>
       </AmmContainer>
-      <InfoSection {...homeObjFive} />
-      <InfoSection {...homeObjSix} />
+      <InfoSection {...RecoveryInfoOne} />
+      <InfoSection {...RecoveryInfoTwo} />
     </>
   );
 }
@@ -92,6 +95,7 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 100px;
 `;
 
 export const ImgContainer = styled.div`

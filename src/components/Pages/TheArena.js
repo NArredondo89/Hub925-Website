@@ -2,9 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {
-  AmmenitiesObjOne,
-  AmmenitiesObjTwo,
-  AmmenitiesObjThree,
+  ArenaOne,
+  ArenaTwo,
+  ArenaThree,
+  ArenaFour,
+  ArenaFive,
+  ArenaSix,
 } from '../AmenitiesSection/Data.js';
 
 import { homeObjFive, homeObjSix } from '../InfoSection/Data.js';
@@ -24,25 +27,22 @@ function TheArena() {
       </Container>
       <AmmContainer>
         <ContentContainer>
-          <Content {...AmmenitiesObjOne} />
-          <Content {...AmmenitiesObjTwo} />
-          <Content {...AmmenitiesObjThree} />
+          <Content {...ArenaOne} />
+          <Content {...ArenaTwo} />
+          <Content {...ArenaThree} />
         </ContentContainer>
-
         <ContentContainer>
-          <Content {...AmmenitiesObjOne} />
-          <Content {...AmmenitiesObjTwo} />
-          <Content {...AmmenitiesObjThree} />
+          <Content {...ArenaFour} />
+          <Content {...ArenaFive} />
+          <Content {...ArenaSix} />
         </ContentContainer>
       </AmmContainer>
-
       <TitleContainer>
         <Title>Powered By Aktiv Solution</Title>
       </TitleContainer>
       <ImgContainer>
         <Image />
       </ImgContainer>
-
       <InfoSection {...homeObjFive} />
       <InfoSection {...homeObjSix} />
       <InfoSection {...homeObjFive} />
@@ -84,7 +84,7 @@ export const Span = styled.div`
 `;
 
 export const AmmContainer = styled.div`
-  height: 150vh;
+  height: 120vh;
   width: 100vw;
   display: grid;
   align-items: center;
@@ -93,6 +93,7 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 150px;
 `;
 
 export const TitleContainer = styled.div`

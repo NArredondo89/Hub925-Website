@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-
-import Amenities from '../AmenitiesSection/Index.js';
+import {
+  AmmenitiesObjOne,
+  AmmenitiesObjTwo,
+  AmmenitiesObjThree,
+} from '../AmenitiesSection/Data.js';
 import InfoSection from '../InfoSection/Index.js';
+import Content from '../AmenitiesSection/Content.js';
 
 import { homeObjFive, homeObjSix } from '../InfoSection/Data.js';
 
@@ -15,7 +19,13 @@ function TheStudio() {
           <Span>The Studio</Span>
         </Caption>
       </Container>
-      <Amenities />
+      <StudioAmContainer>
+        <ContentContainer>
+          <Content {...AmmenitiesObjOne} />
+          <Content {...AmmenitiesObjTwo} />
+          <Content {...AmmenitiesObjThree} />
+        </ContentContainer>
+      </StudioAmContainer>
       <ImgContainer>
         <Image />
       </ImgContainer>
@@ -56,6 +66,18 @@ const Span = styled.div`
   color: white;
   font-weight: 700;
   font-size: 5vw;
+`;
+
+export const StudioAmContainer = styled.div`
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  align-items: center;
+`;
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 `;
 
 export const ImgContainer = styled.div`
