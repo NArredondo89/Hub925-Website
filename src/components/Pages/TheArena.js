@@ -10,11 +10,11 @@ import {
   ArenaSix,
 } from '../AmenitiesSection/Data.js';
 
-import { homeObjFive, homeObjSix } from '../InfoSection/Data.js';
+import { TheArenaOne, TheArenaTwo } from '../InfoSection/Data.js';
 
 import InfoSection from '../InfoSection/Index.js';
 
-import Content from '../AmenitiesSection/Content.js';
+import PTContent from '../AmenitiesSection/PTContent.js';
 
 function TheArena(props) {
   return (
@@ -27,14 +27,14 @@ function TheArena(props) {
       </Container>
       <AmmContainer>
         <ContentContainer>
-          <Content {...ArenaOne} />
-          <Content {...ArenaTwo} />
-          <Content {...ArenaThree} />
+          <PTContent {...ArenaOne} />
+          <PTContent {...ArenaTwo} />
+          <PTContent {...ArenaThree} />
         </ContentContainer>
         <ContentContainer>
-          <Content {...ArenaFour} />
-          <Content {...ArenaFive} />
-          <Content {...ArenaSix} />
+          <PTContent {...ArenaFour} />
+          <PTContent {...ArenaFive} />
+          <PTContent {...ArenaSix} />
         </ContentContainer>
       </AmmContainer>
       <TitleContainer>
@@ -43,9 +43,8 @@ function TheArena(props) {
       <ImgContainer>
         <Image />
       </ImgContainer>
-      <InfoSection {...homeObjFive} />
-      <InfoSection {...homeObjSix} />
-      <InfoSection {...homeObjFive} />
+      <InfoSection {...TheArenaOne} />
+      <InfoSection {...TheArenaTwo} />
     </>
   );
 }
@@ -84,7 +83,8 @@ const Span = styled.div`
 `;
 
 const AmmContainer = styled.div`
-  height: 120vh;
+  margin: 5vh 0;
+  height: 110vh;
   width: 100vw;
   display: grid;
   align-items: center;
@@ -97,7 +97,7 @@ const ContentContainer = styled.div`
 `;
 
 const TitleContainer = styled.div`
-  background-color: #04131e;
+  background-color: black;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -105,7 +105,7 @@ const TitleContainer = styled.div`
 `;
 
 const Title = styled.div`
-  color: white;
+  color: #00ffff;
   font-weight: 600;
   font-size: 5em;
 `;

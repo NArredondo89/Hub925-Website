@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import {
+  RecoveryPricingOne,
+  RecoveryPricingTwo,
+  RecoveryPricingThree,
   RecoveryOne,
   RecoveryTwo,
   RecoveryThree,
@@ -10,6 +13,8 @@ import {
 } from '../AmenitiesSection/Data.js';
 
 import Content from '../AmenitiesSection/Content.js';
+
+import NFContent from '../AmenitiesSection/NFContent.js';
 
 import InfoSection from '../InfoSection/Index.js';
 
@@ -42,6 +47,11 @@ function RecoveryLounge() {
       </AmmContainer>
       <InfoSection {...RecoveryInfoOne} />
       <InfoSection {...RecoveryInfoTwo} />
+      <ContentContainer>
+        <NFContent {...RecoveryPricingOne} />
+        <NFContent {...RecoveryPricingTwo} />
+        <NFContent {...RecoveryPricingThree} />
+      </ContentContainer>
     </>
   );
 }

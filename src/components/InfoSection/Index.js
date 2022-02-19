@@ -32,6 +32,8 @@ const InfoSection = ({
   darkText,
   dark,
   dark2,
+  TLColor,
+  BGColor,
 }) => {
   console.log(primary);
   return (
@@ -40,8 +42,8 @@ const InfoSection = ({
         <InfoRow imgStart={imgStart}>
           <Column1>
             <TextWrapper>
-              <TopLine>{topLine}</TopLine>
-              <Heading lightText={lightText}>{headline}</Heading>
+              <TopLine style={{ color: TLColor }}>{topLine}</TopLine>
+              <Heading style={{ color: lightText }}>{headline}</Heading>
               <Subtitle darkText={darkText}>{description}</Subtitle>
               <BtnWrap>
                 <Button
@@ -51,7 +53,7 @@ const InfoSection = ({
                   spy={true}
                   exact="true"
                   offset={-80}
-                  primary={primary ? 1 : 0}
+                  style={{ backgroundColor: BGColor }}
                   dark={dark ? 1 : 0}
                   dark2={dark2 ? 1 : 0}
                 >

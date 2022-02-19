@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const NFContent = ({ title, description, pricing }) => {
+const NFContent = ({ title, description, pricing, NFTitle, NFBorder }) => {
   return (
-    <NFContentWrapper>
-      <NFContentTitle>{title}</NFContentTitle>
+    <NFContentWrapper style={{ border: NFBorder }}>
+      <NFContentTitle style={{ color: NFTitle }}>{title}</NFContentTitle>
       <NFContentDescription>{description}</NFContentDescription>
       <NFContentPricing>{pricing}</NFContentPricing>
     </NFContentWrapper>
@@ -19,11 +19,13 @@ export const NFContentWrapper = styled.div`
   text-align: center;
   justify-content: center;
   margin-top: 20vh;
-  height: 80vh;
+  height: 60vh;
   width: 20vw;
 `;
 
 export const NFContentTitle = styled.h1`
+  text-underline-position: under;
+  text-decoration-color: white;
   height: 20%;
   width: 20vw;
   font-size: 2vw;
