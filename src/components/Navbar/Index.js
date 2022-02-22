@@ -12,7 +12,7 @@ import {
 
 function Navbar() {
   const [menuStatus, setMenuStatus] = useState(false);
-  const [color, setColor] = useState('');
+  const [color, setColor] = useState('#009d94');
 
   return (
     <>

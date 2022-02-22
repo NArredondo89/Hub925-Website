@@ -24,11 +24,14 @@ export const Menu = styled.div`
   flex: 1;
 
   a {
-    /* color: #009d94; */
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
     flex-wrap: nowrap;
+  }
+
+  a:hover {
+    font-weight: 700;
   }
 
   @media (max-width: 900px) {
