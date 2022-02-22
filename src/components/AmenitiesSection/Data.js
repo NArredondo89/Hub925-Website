@@ -104,3 +104,23 @@ export const ArenaSix = {
   img: require('../../images/TRX.jpg'),
   title: 'TRX',
 };
+
+////Fitness Facility///////
+
+export const FitnessPricingOne = {
+  NFTitle: '#009d94',
+  title: 'Previous Member Pricing',
+  description:
+    'As a thanks to all of our previous members we are giving a special rate with no initiation.',
+  NFBorder: '1px solid white',
+  pricing: '$59 Monthly (12 Mo)',
+};
+export const FitnessPricingTwo = {
+  NFTitle: '#009d94',
+  title: 'New Member Special',
+  description:
+    'All of our new members will recieve the first three months at a reduced rate! ',
+  Initiation: '$99 Initiation ',
+  pricing: '$59.99 First Three Mo 69.99 Monthly (12 Mo)',
+  NFBorder: '1px solid white',
+};

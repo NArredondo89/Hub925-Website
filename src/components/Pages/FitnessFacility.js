@@ -2,8 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 import InfoSection from '../InfoSection/Index.js';
+import NFContent from '../AmenitiesSection/NFContent.js';
 
 import { homeObjOne, homeObjTwo, homeObjFour } from '../InfoSection/Data.js';
+
+import {
+  FitnessPricingOne,
+  FitnessPricingTwo,
+} from '../AmenitiesSection/Data.js';
 
 const FitnessFacility = () => {
   return (
@@ -19,6 +25,10 @@ const FitnessFacility = () => {
         </ImgContainer>
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
+        <PricingContainer>
+          <NFContent {...FitnessPricingOne} />
+          <NFContent {...FitnessPricingTwo} />
+        </PricingContainer>
       </Container>
     </>
   );
@@ -27,7 +37,7 @@ const FitnessFacility = () => {
 export default FitnessFacility;
 
 const Container = styled.div`
-  height: 100vh;
+  height: 120vh;
 `;
 
 const HeroImage = styled.div`
@@ -69,4 +79,12 @@ export const Image = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+`;
+
+export const PricingContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 200px;
+  vertical-align: middle;
 `;

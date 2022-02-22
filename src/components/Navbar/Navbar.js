@@ -24,7 +24,7 @@ export const Menu = styled.div`
   flex: 1;
 
   a {
-    color: #009d94;
+    /* color: #009d94; */
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;

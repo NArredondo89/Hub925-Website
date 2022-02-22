@@ -12,16 +12,57 @@ import {
 
 function Navbar() {
   const [menuStatus, setMenuStatus] = useState(false);
+  const [color, setColor] = useState('');
 
   return (
     <>
       <Container>
         <Menu>
-          <Link to="/the-studio">The Studio</Link>
-          <Link to="/the-recovery-lounge">The Recovery Lounge</Link>
-          <Link to="/">Hub925 Fitness Facility</Link>
-          <Link to="/the-arena">The Arena </Link>
-          <Link to="/the-rejuvenation-spa">The Rejuvenation Spa</Link>
+          <Link
+            style={{ color: color }}
+            to="/the-studio"
+            onClick={() => {
+              setColor('#b042ff');
+            }}
+          >
+            The Studio
+          </Link>
+          <Link
+            style={{ color: color }}
+            to="/the-recovery-lounge"
+            onClick={() => {
+              setColor('#0055b3');
+            }}
+          >
+            The Recovery Lounge
+          </Link>
+          <Link
+            style={{ color: color }}
+            to="/"
+            onClick={() => {
+              setColor('#009d94');
+            }}
+          >
+            Hub925 Fitness Facility
+          </Link>
+          <Link
+            style={{ color: color }}
+            to="/the-arena"
+            onClick={() => {
+              setColor('#00ffff');
+            }}
+          >
+            The Arena
+          </Link>
+          <Link
+            style={{ color: color }}
+            to="/the-rejuvenation-spa"
+            onClick={() => {
+              setColor('#7ad7f0');
+            }}
+          >
+            The Rejuvenation Spa
+          </Link>
         </Menu>
         <RightMenu>
           <CustomMenu onClick={() => setMenuStatus(true)} />
