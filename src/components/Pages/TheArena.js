@@ -115,7 +115,7 @@ const ImgContainer = styled.div`
 `;
 
 const Image = styled.div`
-  background-image: url(${'https://i.imgur.com/wiMDjpZh.jpg'});
+  background-image: url(${require('../../images/Aktiv.jpg')});
   min-height: 100%;
   position: relative;
   background-attachment: fixed;

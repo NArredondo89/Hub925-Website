@@ -63,7 +63,7 @@ const Container = styled.div`
 `;
 
 const HeroImage = styled.div`
-  background-image: url(${'https://i.imgur.com/5xZW9oL.jpg'});
+  background-image: url(${require('../../images/RecoveryLounge.jpg')});
   opacity: 0.6;
   min-height: 100%;
   position: relative;
@@ -113,7 +113,7 @@ export const ImgContainer = styled.div`
 `;
 
 export const Image = styled.div`
-  background-image: url(${'https://i.imgur.com/K29ON1q.jpg'});
+  background-image: url(${require('../../images/WorldClass.jpg')});
   min-height: 100%;
   position: relative;
   background-attachment: fixed;

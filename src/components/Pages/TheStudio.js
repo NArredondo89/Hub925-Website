@@ -87,7 +87,7 @@ export const ImgContainer = styled.div`
 `;
 
 export const Image = styled.div`
-  background-image: url(${require('../..//images/PilatesStudio2.jpg')});
+  background-image: url(${require('../../images/PilatesStudio2.jpg')});
   min-height: 100%;
   position: relative;
   background-attachment: fixed;
