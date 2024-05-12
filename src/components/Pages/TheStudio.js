@@ -44,7 +44,7 @@ const Container = styled.div`
 `;
 
 const HeroImage = styled.div`
-  background-image: url(${'https://i.imgur.com/0hVtlWj.jpg'});
+  background-image: url(${require('../../images/TheStudioHero.jpg')});
   opacity: 0.6;
   min-height: 100%;
   position: relative;
@@ -87,7 +87,7 @@ export const ImgContainer = styled.div`
 `;
 
 export const Image = styled.div`
-  background-image: url(${'https://i.imgur.com/bBtodJn.jpg'});
+  background-image: url(${require('../..//images/PilatesStudio2.jpg')});
   min-height: 100%;
   position: relative;
   background-attachment: fixed;

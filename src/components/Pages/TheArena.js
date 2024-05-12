@@ -56,7 +56,7 @@ const Container = styled.div`
 `;
 
 const HeroImage = styled.div`
-  background-image: url(${'https://i.imgur.com/cTfE0cW.jpg'});
+  background-image: url(${require('../../images/TheArena.jpg')});
   opacity: 0.8;
   min-height: 100%;
   position: relative;
