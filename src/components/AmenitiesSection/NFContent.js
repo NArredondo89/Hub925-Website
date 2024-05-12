@@ -42,7 +42,7 @@ export const NFContentTitle = styled.h1`
   padding: 10px;
 `;
 export const NFContentDescription = styled.p`
-  height: 30%;
+  height: 40%;
   width: 20vw;
   font-weight: 300;
   font-size: 1.2vw;
@@ -52,14 +52,14 @@ export const NFContentDescription = styled.p`
 `;
 
 export const NFContentInitiation = styled.div`
-  height: 40%;
+  height: 20%;
   color: white;
   font-size: 1.7vw;
   padding: 10px;
 `;
 export const NFContentPricing = styled.div`
-  height: 40%;
+  height: 50%;
   color: white;
   font-size: 1.7vw;
-  padding: 10px;
+  align-content: center;
 `;

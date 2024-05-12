@@ -99,3 +99,8 @@ export const Img = styled.img`
   margin-left: 10px;
   padding-right: 0;
 `;
+
+export const Attribution = styled.p`
+  font-size: 12px;
+  color: white;
+`;

@@ -15,6 +15,7 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
+  Attribution,
 } from './InfoSection.js';
 
 const InfoSection = ({
@@ -34,6 +35,7 @@ const InfoSection = ({
   dark2,
   TLColor,
   BGColor,
+  attribution,
 }) => {
   console.log(primary);
   return (
@@ -65,6 +67,7 @@ const InfoSection = ({
           <Column2>
             <ImgWrap>
               <Img src={img} alt={alt} />
+              <Attribution>{attribution}</Attribution>
             </ImgWrap>
           </Column2>
         </InfoRow>

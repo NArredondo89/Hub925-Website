@@ -1,8 +1,6 @@
 import React from 'react';
-
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 import NavBar from './components/Navbar/Index.js';
 import TheStudio from './components/Pages/TheStudio';
 import RecoveryLounge from './components/Pages/RecoveryLounge';

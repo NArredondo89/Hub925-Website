@@ -174,3 +174,68 @@ export const TheArenaTwo = {
   primary: true,
   darkText: false,
 };
+
+export const SpaPricingThree = {
+  NFTitle: '#FF5733',
+  title: 'Aromatherapy Bliss',
+  description:
+    'Treat yourself to our Aromatherapy Bliss package, combining essential oils and massage techniques for total relaxation.',
+  pricing: '$79',
+};
+
+export const TheRejuvaSpaone = {
+  id: 'HydraFacial Section',
+  lightBg: false,
+  TLColor: '#FF5733',
+  lightText: '#FFFFFF',
+  lightTextDesc: false,
+  topLine: 'Skin Rejuvenation',
+  headline: 'HydraFacial: Revitalize Your Skin',
+  description: `Say goodbye to dull, tired skin and hello to a radiant complexion with our HydraFacial treatment. 
+                Experience the ultimate hydration and rejuvenation.`,
+  buttonLabel: 'Book Now',
+  imgStart: false,
+  img: require('../../images/hydraFacial.jpg'),
+  alt: 'HydraFacial',
+  dark: true,
+  primary: true,
+  darkText: true,
+};
+
+export const TheRejuvaSpatwo = {
+  id: 'Massage Section',
+  lightBg: false,
+  TLColor: '#00FFFF',
+  lightText: '#FFFFFF',
+  lightTextDesc: true,
+  topLine: 'Ultimate Relaxation',
+  headline: 'Massage Therapy: Recharge Your Body',
+  description: `Indulge in our massage therapy sessions designed to release tension, improve circulation,
+                and promote overall well-being. Let our skilled therapists help you unwind and recharge.`,
+  buttonLabel: 'Book Now',
+  imgStart: true,
+  img: require('../../images/Massage.jpg'),
+  alt: 'Massage',
+  dark: false,
+  primary: false,
+  darkText: false,
+};
+
+export const TheRejuvaSpaThree = {
+  id: 'Mystery Treatment Section',
+  lightBg: false,
+  TLColor: '#FFA500',
+  lightText: '#FFFFFF',
+  lightTextDesc: false,
+  topLine: 'Curious Experience',
+  headline: 'The Mysterious Spa Treatment',
+  description: `Step into the unknown with our Mystery Spa Treatment. Who knows what surprises await you?
+                Prepare to be pampered, surprised, and perhaps even puzzled.`,
+  buttonLabel: 'Book Now',
+  imgStart: false,
+  img: require('../../images/Massage.jpg'),
+  alt: 'Mystery Treatment',
+  dark: true,
+  primary: false,
+  darkText: true,
+};

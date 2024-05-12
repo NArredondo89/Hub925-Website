@@ -14,6 +14,7 @@ export default PTContent;
 
 const ContentWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -30,6 +31,7 @@ const Img = styled.img`
 const ContentTitle = styled.h1`
   height: 20%;
   width: 20vw;
-  font-size: 2vw;
+  font-size: 1vw;
+  text-transform: uppercase;
   color: white;
 `;
