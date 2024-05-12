@@ -42,7 +42,7 @@ const Container = styled.div`
 `;
 
 const HeroImage = styled.div`
-  background-image: url(${'https://i.imgur.com/owAuaAO.jpg'});
+  background-image: url(${require('../../images/RejSpa.jpg')});
   min-height: 100%;
   position: relative;
   background-attachment: fixed;

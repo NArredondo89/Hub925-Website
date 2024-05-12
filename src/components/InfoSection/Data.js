@@ -186,7 +186,7 @@ export const SpaPricingThree = {
 export const TheRejuvaSpaone = {
   id: 'HydraFacial Section',
   lightBg: false,
-  TLColor: '#FF5733',
+  TLColor: '#7ad7f0',
   lightText: '#FFFFFF',
   lightTextDesc: false,
   topLine: 'Skin Rejuvenation',
@@ -199,13 +199,13 @@ export const TheRejuvaSpaone = {
   alt: 'HydraFacial',
   dark: true,
   primary: true,
-  darkText: true,
+  darkText: false,
 };
 
 export const TheRejuvaSpatwo = {
   id: 'Massage Section',
   lightBg: false,
-  TLColor: '#00FFFF',
+  TLColor: '#7ad7f0',
   lightText: '#FFFFFF',
   lightTextDesc: true,
   topLine: 'Ultimate Relaxation',
@@ -216,7 +216,7 @@ export const TheRejuvaSpatwo = {
   imgStart: true,
   img: require('../../images/Massage.jpg'),
   alt: 'Massage',
-  dark: false,
+  dark: true,
   primary: false,
   darkText: false,
 };
@@ -224,7 +224,7 @@ export const TheRejuvaSpatwo = {
 export const TheRejuvaSpaThree = {
   id: 'Mystery Treatment Section',
   lightBg: false,
-  TLColor: '#FFA500',
+  TLColor: '#7ad7f0',
   lightText: '#FFFFFF',
   lightTextDesc: false,
   topLine: 'Curious Experience',
@@ -237,5 +237,5 @@ export const TheRejuvaSpaThree = {
   alt: 'Mystery Treatment',
   dark: true,
   primary: false,
-  darkText: true,
+  darkText: false,
 };

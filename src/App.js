@@ -7,12 +7,13 @@ import RecoveryLounge from './components/Pages/RecoveryLounge';
 import FitnessFacility from './components/Pages/FitnessFacility.js';
 import TheArena from './components/Pages/TheArena';
 import RejuvenationSpa from './components/Pages/RejuvenationSpa';
-
+import ScrollToTop from '../src/components/ScrollToTop';
 function App() {
   return (
     <>
       <Router>
         <NavBar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<FitnessFacility />} />
           <Route path="/the-studio" exact element={<TheStudio />} />
